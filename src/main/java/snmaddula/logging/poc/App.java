@@ -3,12 +3,16 @@ package snmaddula.logging.poc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 
+ * @author snmaddula
+ *
+ */
 @SpringBootApplication
-public class BootReqResLoggingApplication {
+public class App {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BootReqResLoggingApplication.class, args);
+		SpringApplication.run(App.class, args);
 	}
 
 }
-
